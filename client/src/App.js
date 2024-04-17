@@ -38,6 +38,11 @@ function App() {
   return (
     <div className="App">
       <Nav />
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
     </div>
   );
 }
