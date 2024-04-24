@@ -4,10 +4,10 @@ import '../styles/Landing.scss';
 function Landing() {
     return (
         <div className="Landing">
-        <header className="Landing-header">
-            <h1>Landing Page Test</h1>
-        </header>
-        </div>
+            <div className="banner-container">
+                <div className="banner"></div>
+            </div>
+        </div>  
     );
     }
 
