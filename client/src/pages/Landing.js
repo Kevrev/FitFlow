@@ -15,6 +15,7 @@ function Landing() {
             </div>
             <div>
                 <h2>What we provide</h2>
+                <hr></hr>
                 <div className="service-container">
                     <div className="service">
                         <h3>Placeholder 1</h3>
