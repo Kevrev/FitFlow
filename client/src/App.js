@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 import React from 'react';
 import { BrowserRouter as Router, 
@@ -38,6 +38,11 @@ function App() {
   return (
     <div className="App">
       <Nav />
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile />} />
+        </Routes>
     </div>
   );
 }
