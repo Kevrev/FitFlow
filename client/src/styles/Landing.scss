@@ -19,10 +19,15 @@
 
 .blurb-text {
     color: white;
-    max-width: 40vw;
+    max-width: 45vw;
+    max-height: 40vw;
     position: absolute;
     top: 50%; 
-    padding: 0 10vw 0 0;
+    padding: 0 15vw 0 0;
     transform: translate(0, -60%);
     right: 0;
+}
+
+.blurb-text h1 {
+    font-weight: bold;
 }
