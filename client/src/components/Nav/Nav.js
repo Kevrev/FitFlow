@@ -10,7 +10,7 @@ function Nav() {
         </Link>
         <div className="navbar-navigation">
             <Link className="navbar-link" to="/workout">
-                <button className="btn btn-primary">
+                <button className="btn btn-primary fitflow-btn">
                     Start Workout
                 </button>
             </Link>
@@ -29,5 +29,31 @@ function Nav() {
         </nav>
     );
     }
+
+
+//if not logged in, show sign up and login
+/*
+    function Nav() {
+        return (
+            <nav className="navbar-test">
+            <Link className="website-title" to="/">
+                FitFlow
+            </Link>
+            <div className="navbar-navigation">
+                <Link className="navbar-link" to="/workout">
+                    <button className="btn btn-primary btn-signup">
+                        Sign Up
+                    </button>
+                </Link>
+                <Link className="navbar-link" to="/workout">
+                    <button className="btn btn-primary btn-login">
+                        Log In
+                    </button>
+                </Link>
+            </div>
+            </nav>
+        );
+        }
+*/
 
 export default Nav;

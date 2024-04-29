@@ -6,13 +6,22 @@
     align-items: center;
 }
 
+.website-title {
+    color: #839BEF;
+    font-family: 'Roboto', 'Helvetica', 'sans-serif';
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
 .navbar-navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar-link button {
+.fitflow-btn {
+    background-color: #839BEF;
     border-radius: 36px;
     font-weight: bold;
     font-size: 1em;
@@ -20,6 +29,17 @@
     box-shadow: none;
 }
 
+.btn-signup {
+    @extend .fitflow-btn;
+
+}
+
+.btn-login {
+    @extend .fitflow-btn;
+    color: #AAB4BE;
+    background-color: transparent;
+    border: 2px solid #AAB4BE;
+}
 .fa-circle-user {
     color: #AAB4BE;
     font-size: 2em;
