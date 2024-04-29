@@ -8,20 +8,22 @@ function Nav() {
         <Link className="website-title" to="/dashboard">
             FitFlow
         </Link>
-        <div>
-            <Link to="/workout">
+        <div className="navbar-navigation">
+            <Link className="navbar-link" to="/workout">
                 <button className="btn btn-primary">
                     Start Workout
                 </button>
             </Link>
-            <Link className="navbar-text-test" to="/dashboard">
-                Dashboard
+            <i class="far fa-circle-user"></i>
+            <Link className="navbar-link" to="/profile">
+                    FirstName
+                <i class="fas fa-angle-down"></i>
             </Link>
-            <Link className="navbar-text-test" to="/profile">
-                <i class="far fa-circle-user"></i>
-                FirstName
+            <i class="fas fa-gear"></i>
+            <Link className="navbar-link" to="/profile">
+                Settings
+                <i class="fas fa-angle-down"></i>
             </Link>
-            <div class="vr" style={{height: "29px", backgroundColor: "#AAB4BE"}}></div>
         </div>
         
         </nav>
