@@ -1,5 +1,5 @@
 .navbar-test {
-    background-color: #FFFFFF;
+    background-color: var(--c-background);
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -7,7 +7,7 @@
 }
 
 .website-title {
-    color: #839BEF;
+    color: var(--c-primary);
     font-family: 'Roboto', 'Helvetica', 'sans-serif';
     font-size: 1.5em;
     font-weight: bold;
@@ -21,7 +21,7 @@
 }
 
 .fitflow-btn {
-    background-color: #839BEF;
+    background-color: var(--c-primary);
     border-radius: 36px;
     font-weight: bold;
     font-size: 1em;
@@ -36,12 +36,12 @@
 
 .btn-login {
     @extend .fitflow-btn;
-    color: #AAB4BE;
+    color: var(--c-textcolor);
     background-color: transparent;
-    border: 2px solid #AAB4BE;
+    border: 2px solid var(--c-textcolor);
 }
 .fa-circle-user {
-    color: #AAB4BE;
+    color: var(--c-textcolor);
     font-size: 2em;
     margin-right: 7px;
 }
@@ -52,13 +52,13 @@
 }
 
 .fa-gear {
-    color: #AAB4BE;
+    color: var(--c-textcolor);
     font-size: 1.6em;
     margin-right: 7px;
 }
 
 .navbar-link {
-    color: #AAB4BE;
+    color: var(--c-textcolor);
     font-family: 'Roboto', 'Helvetica', 'sans-serif';
     font-size: 1em;
     text-decoration: none;
